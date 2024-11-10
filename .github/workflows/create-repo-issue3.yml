@@ -15,7 +15,7 @@ on:
         required: true
         type: string
     outputs:
-      issue-number:
+      issue-num:
         description: "The issue number"
         value: ${{ jobs.create-issue.outputs.inum }}
         
