@@ -21,7 +21,7 @@ on:
         
 jobs:
  
-  create_issue:
+  create-issue:
     runs-on: ubuntu-latest 
     outputs:
       inum: ${{ steps.new-issue.outputs.inum }}
